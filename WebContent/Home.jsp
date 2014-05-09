@@ -7,7 +7,11 @@
 	</head> 
 	<body> 
 		<form action="HelloServlet"> Please enter a color <br> 
-		<input type="text" name="color"size="20px"> 
+		<input type="text" name="color" size="20px"> <br>
+		Enter your name <br>
+		<input type="text" name="name" size="30px"><br>
+		Enter your email <br>
+		<input type="text" name="email" size="30px"><br>
 		<input type="submit" value="submit"> 
 		</form> 
 	</body> 
