@@ -94,8 +94,6 @@ public static ArrayList<User> getAllUsers() {
 		ResultSet result = null;
 		
 		try {
-			//connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ouaamou_com:root:");
-			//connection = DriverManager.getConnection("jdbc:mysql://localhost/ouaamou_com?user=root&password=");
 			connection = DriverManager.getConnection(url, username, password);
 			statement = connection.createStatement();
 			result = statement.executeQuery("SELECT id, first_name, last_name, email, phone_number FROM dw_user");
